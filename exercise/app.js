@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
     next();
 })
 
-mongoose.connect('mongodb+srv://at3250:A20190499n@cluster0.jesb2.mongodb.net/db?retryWrites=true&w=majority', {
+mongoose.connect('MY_MONGODB_CREDENTIAL', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
